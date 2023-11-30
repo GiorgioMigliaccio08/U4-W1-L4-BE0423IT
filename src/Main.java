@@ -1,25 +1,19 @@
-package entities;
+import entities.Dipendente;
 
-public class Dipendente {
-    public int stipendioBase= 1000;
-    public int Matricola;
-    private  int stipendio;
-    private int importoOrarioStraordinario;
-    private String Livello;
-    private String Dipartimento;
+public class Main {
+    public static void main(String[] args) {
+        Dipendente Mario = new Dipendente( 1000, 9876,
+                1200 ,50, "Operaio",
+                "Produzione");
 
-    public Dipendente ( int stipendioBase, int Matricola, int stipendio, int importoOrarioStraordinario, String Livello, String Dipartimento){
-        this.stipendioBase = stipendioBase;
-        this.Matricola = Matricola;
-        this.stipendio = stipendio;
-        this.importoOrarioStraordinario= importoOrarioStraordinario;
-        this.Livello = Livello;
-        this.Dipartimento = Dipartimento;
+        Dipendente Luigi = new Dipendente( 1000, 9672,
+                1300 ,30,
+                "Impiegato", "Amministarzione");
 
-    }
+        Dipendente Filippo = new Dipendente( 1000, 9654,
+                1500 ,30,
+                "Quadro", "Amministarzione");
 
-    //METODI
-    public void nomiunativoDipendente() {
-        System.out.println("La mia matricola è " + this.Matricola + " ed il mio stipendio è " + this.stipendio + " euro.");
+        Mario.nomiunativoDipendente();
     }
 }
