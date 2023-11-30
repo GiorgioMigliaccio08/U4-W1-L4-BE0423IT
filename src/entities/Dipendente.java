@@ -27,11 +27,15 @@ public class Dipendente {
     public void construttoreUno (int matricola, String Dipartimento) {
        stipendio = stipendioBase;
        importoOrarioStraordinario = 30;
-       Livello = "Operaio";
+
     }
 
     public void construttoreDue (int stipendioBase, int Matricola, int stipendio,
                                  int importoOrarioStraordinario, String Livello, String Dipartimento ){
 
+    }
+    public Livello promuovi(){
+        switch (this.Livello)
+        case OPERAIO -> {}
     }
 }
