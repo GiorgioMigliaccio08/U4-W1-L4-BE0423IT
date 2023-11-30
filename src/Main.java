@@ -15,5 +15,7 @@ public class Main {
                 "Quadro", "Amministarzione");
 
         Mario.nomiunativoDipendente();
+        Luigi.nomiunativoDipendente();
+        Filippo.nomiunativoDipendente();
     }
 }

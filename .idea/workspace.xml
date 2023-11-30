@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7699aebd-3997-422b-93e0-3064e37ec327" name="Changes" comment="Primo Commit" />
+    <list default="true" id="7699aebd-3997-422b-93e0-3064e37ec327" name="Changes" comment="Terzo Commit">
+      <change afterPath="$PROJECT_DIR$/src/entities/Dipartimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Livello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Dipendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Dipendente.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -51,11 +61,29 @@
       <option name="project" value="LOCAL" />
       <updated>1701355911199</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Secondo Commit">
+      <option name="closed" value="true" />
+      <created>1701356213772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701356213772</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Terzo Commit">
+      <option name="closed" value="true" />
+      <created>1701359426584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701359426584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primo Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primo Commit" />
+    <MESSAGE value="Secondo Commit" />
+    <MESSAGE value="Terzo Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terzo Commit" />
   </component>
 </project>
